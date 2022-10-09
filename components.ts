@@ -18,6 +18,9 @@ export function If(props: { children?: any; condition: boolean }) {
   return props.children;
 }
 
+export function Else() {
+}
+
 type NoBody<T> = {
   children?: any;
   each: string;
